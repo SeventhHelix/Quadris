@@ -1,0 +1,24 @@
+Quadris - Written by Jeff Dyck and Sayed Khader
+
+To install: Simply type 'make' and run the quadris executable.
+
+Supported flags:
+    -text               Runs the game in text-only mode
+    -seed n             Sets the game seed to n. Otherwise you'll 
+                        play the game arrangement of pieces every time
+
+The game supports the following commands:
+
+    down, left, right   Moves the piece
+    drop                Drops the piece. You must drop to get the next piece
+    clockwise           Spins the piece
+    counterclockwise
+    levelup             Changes the difficulty
+    leveldown
+    restart             Restarts the game
+    rename x y          Sets an alias for command x to y
+                        eg 'rename counterclockwise cw'
+    n[str]              Runs command [str] n times. 
+
+There is also autocompletion in running the commands. 
+ie typing 'dr' will execute the drop command.
