@@ -22,3 +22,5 @@ The game supports the following commands:
 
 There is also autocompletion in running the commands. 
 ie typing 'dr' will execute the drop command.
+
+Note that there are some graphical glitches in this program because of the simple Xwindow class. It does not redraw the window properly, so depending on how the two windows were initially displayed, certain areas of the window may not update. It should work fine after a few tries, just try to encourage the windows to not spawn on top of each other :)
